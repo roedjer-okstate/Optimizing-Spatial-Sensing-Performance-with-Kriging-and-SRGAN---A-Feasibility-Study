@@ -7,12 +7,12 @@ Several studies have aimed at improving sensor performance through deep learning
 [IEEE Publication](https://ieeexplore.ieee.org/document/10325319)
 
 ## Directory
-1. [Simulation.ipynb](Data_Simulation\04172023_Simulation.ipynb)
+1. [04172023_Simulation.ipynb](./Data_Simulation/04172023_Simulation.ipynb)
 - This file contains code to simulate data points (similar to pressure sensors on a car seat)
 - This file contains code to apply Ordinary Kriging to convert data points into pressure heatmap images for both LR and HR data points
 - The LR images will then be the input while the HR images will be the ground truth images for SRGAN model.
 
-2. [SRGAN.ipynb](SRGAN\SRGAN\SRGAN\04172023_SRGAN.ipynb)
+2. [04172023_SRGAN.ipynb](./SRGAN/SRGAN/SRGAN/04172023_SRGAN.ipynb)
 - This file contains code to load and preprocess the heatmap images including tensor transformation and normalization.
 - This file contains code to build the SRGAN model.
 - This file contains code to train and test the model.
